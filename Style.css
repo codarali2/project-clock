@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(sun.jpg);
+    width: 100%;
+    max-width: 100%;
+}
+
+#div_clock {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 450px;
+    top: 50px;
+    border-radius: 40px;
+    border: 3px silver dashed;
+    background-color: wheat;
+}
+
+#clock {
+    height: 60px;
+    width: 296px;
+    font-size: 60px;
+    position: relative;
+    bottom: 233px;
+    left: 104px;
+    background-color: #252429;
+    border-radius: 20px;
+    color: white;
+}
+
+#img_clock {
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    top: 150px;
+    border: 3px blue dotted;
+}
+
+#div_button {
+    position: relative;
+    top: 260px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(120deg, white 50%, black 50%);
+    text-align: center;
+    border: 2px goldenrod dotted;
+}
+
+button {
+    position: relative;
+    bottom: 55px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#Color1 {
+    margin-right: 100px;
+    background-image: url(morning.jpg);
+}
+
+#Color2 {
+    margin-left: 100px;
+    background-image: url(night.png);
+    background-color: black;
+}
